@@ -7,22 +7,36 @@
 <html>
 <head>
     <title>Galer&iacute;a de imagenes</title>
-    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="author" content="Carlos Torres" />   
-    <link rel="stylesheet" href="~/Content/master.css"/>
+    <link rel="stylesheet" href="~/Content/styles/master.css"/>
 </head>
 <body>
     <header>
-        <h1>Galer&iacute;a de imagenes</h1>
+        <h1>Galer&iacute;a de imagenes</h1>       
     </header>
 
-    <section>
+    <nav>
+        <ul>
+            <li>@Html.ActionLink("Agregar imagen", "Agregar", "Galeria")</li>
+        </ul>
+    </nav>
 
+    <section>
+        <article>
+            <h2>
+                Imagen 1
+            </h2>
+
+            <figure>
+                <img src=""/>
+            </figure>
+
+        </article>
     </section>
 
     <footer>
-
+        <small>Derechos reservados</small>
     </footer>
 </body>
 </html>
