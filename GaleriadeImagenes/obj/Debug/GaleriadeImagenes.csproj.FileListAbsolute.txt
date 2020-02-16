@@ -62,8 +62,8 @@ C:\Users\Carlos\source\repos\GaleriaApp\GaleriadeImagenes\bin\System.Web.Webpage
 C:\Users\Carlos\source\repos\GaleriaApp\GaleriadeImagenes\bin\System.Web.Helpers.xml
 C:\Users\Carlos\source\repos\GaleriaApp\GaleriadeImagenes\bin\System.Web.Mvc.xml
 C:\Users\Carlos\source\repos\GaleriaApp\GaleriadeImagenes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Carlos\source\repos\GaleriaApp\GaleriadeImagenes\obj\Debug\GaleriadeImagenes.csprojAssemblyReference.cache
 C:\Users\Carlos\source\repos\GaleriaApp\GaleriadeImagenes\obj\Debug\GaleriadeImagenes.csproj.CoreCompileInputs.cache
 C:\Users\Carlos\source\repos\GaleriaApp\GaleriadeImagenes\obj\Debug\GaleriadeImagenes.csproj.CopyComplete
 C:\Users\Carlos\source\repos\GaleriaApp\GaleriadeImagenes\obj\Debug\GaleriadeImagenes.dll
 C:\Users\Carlos\source\repos\GaleriaApp\GaleriadeImagenes\obj\Debug\GaleriadeImagenes.pdb
+C:\Users\Carlos\source\repos\GaleriaApp\GaleriadeImagenes\obj\Debug\GaleriadeImagenes.csprojAssemblyReference.cache

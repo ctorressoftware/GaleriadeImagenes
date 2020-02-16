@@ -88,6 +88,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\amanecer.jpg" />
+    <Content Include="Content\images\beach.jpeg" />
+    <Content Include="Content\images\eiffel.jpg" />
+    <Content Include="Content\images\naturaleza.jpg" />
+    <Content Include="Content\images\puente.jpg" />
     <Content Include="Content\styles\master.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -98,7 +103,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ImagenComponente.cs" />
+    <Compile Include="Models\Imagen.cs" />
+    <Compile Include="Models\ImagenMantenimiento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -9,34 +9,32 @@
     <title>Galer&iacute;a de imagenes</title>
     <meta name="viewport" content="width=device-width" />
     <meta name="author" content="Carlos Torres" />   
-    <link rel="stylesheet" href="~/Content/styles/master.css"/>
+    <link rel="stylesheet" href="~/Content/styles/master.css?v=100" />
 </head>
 <body>
     <header>
-        <h1>Galer&iacute;a de imagenes</h1>       
+        <h1>Galer&iacute;a de imagenes</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li>@Html.ActionLink("Agregar imagen", "Agregar", "Galeria")</li>
-        </ul>
-    </nav>
-
     <section>
-        <article>
-            <h2>
-                Imagen 1
-            </h2>
 
+        @foreach (var img in Model)
+        {
             <figure>
-                <img src=""/>
+                <img src="@img.ImagenUrl" />
             </figure>
+        }
 
-        </article>
     </section>
+    
+    <div class="container">
+        <div class="btn-holder">
+            @Html.ActionLink("Agregar imagen", "Agregar", "Galeria")
+        </div>
+    </div>
 
     <footer>
-        <small>Derechos reservados</small>
+        <small>Derechos reservados &copy;</small>
     </footer>
 </body>
 </html>

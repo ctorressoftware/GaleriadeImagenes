@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using GaleriadeImagenes.Models;
 
 namespace GaleriadeImagenes.Controllers
 {
@@ -11,7 +12,8 @@ namespace GaleriadeImagenes.Controllers
         // GET: Galeria
         public ActionResult Mostrar()
         {
-            return View();
+            ImagenMantenimiento im = new ImagenMantenimiento();
+            return View(im.ObtenerTodasLasImagenes());
         }
 
         public ActionResult Agregar()

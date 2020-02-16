@@ -6,10 +6,9 @@ using System.Web;
 
 namespace GaleriadeImagenes.Models
 {
-    public class ImagenComponente
+    public class Imagen
     {
-        public int Id { get; set; }
         public string Nombre { get; set; }
-        public  Image Imagen { get; set; }
+        public string ImagenUrl { get; set; }
     }
 }
