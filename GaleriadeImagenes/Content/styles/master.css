@@ -84,7 +84,6 @@ body {
     background-color: black;
 }
 
-
 @font-face {
     font-family: 'Mi fuente';
     src: url('../../Fonts/Understory DEMO.otf');
@@ -150,7 +149,8 @@ figure {
     height: 300px;
     width: 370px;
     padding: 3px;
-    margin-left: 20px;
+    margin-left: 2%;
+    margin-bottom: 2%;
     border-radius: 10px;
 }
 
@@ -180,4 +180,26 @@ small {
     position: fixed;
     right: 0;
     bottom: 0;
+}
+
+label {
+    margin-top: 2%;
+    color: black;
+    font-family: Verdana;
+    display: inline-block;
+    width: 150px;
+}
+
+section div {
+    background-color: white;
+    width: 50%;
+    margin: 10px auto;
+}
+
+h2 {
+    font-family: Verdana;
+}
+
+input {
+    margin-left: 5%;
 }

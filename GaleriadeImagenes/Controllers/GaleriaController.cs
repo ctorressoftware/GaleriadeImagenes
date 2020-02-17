@@ -20,5 +20,11 @@ namespace GaleriadeImagenes.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult Agregar(FormCollection form)
+        {
+            return View();
+        }
     }
 }

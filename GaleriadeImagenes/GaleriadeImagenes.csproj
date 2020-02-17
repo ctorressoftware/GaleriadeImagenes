@@ -113,6 +113,7 @@
     <Content Include="Fonts\Understory DEMO.otf" />
     <None Include="packages.config" />
     <Content Include="Views\Galeria\Mostrar.cshtml" />
+    <Content Include="Views\Galeria\Agregar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
