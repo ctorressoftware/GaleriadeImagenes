@@ -97,6 +97,7 @@ h1 {
     font-size: 2.5em;
     display: inline-block;
     text-shadow: black 0px 1px 15px;
+    cursor: pointer;
 }
 
     h1:hover {
@@ -155,7 +156,7 @@ figure {
 }
 
 footer {
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
     clear: both;
     padding: 3%;
@@ -183,23 +184,56 @@ small {
 }
 
 label {
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-left: 5%;
     color: black;
     font-family: Verdana;
     display: inline-block;
-    width: 150px;
+    width: 30%;
 }
 
 section div {
     background-color: white;
     width: 50%;
     margin: 10px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 1% 0%;
 }
 
 h2 {
     font-family: Verdana;
+    margin-top: 2%;
+    margin-left: 3%;
 }
 
 input {
     margin-left: 5%;
+    width: 30%;
+    font-family: Verdana;
+}
+
+#url {
+    width: 50%;
+}
+
+form div {
+    margin-top: 5%;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 0px;
+}
+
+.boton {
+    width: 80%;
+    background-color: #393939;
+    color: white;
+    font-family: Verdana;
+    padding: 2%;
+    border-radius: 7px;
+}
+
+#atras {
+    margin-top: 1%;
+    background-color: #3d444f;
 }
