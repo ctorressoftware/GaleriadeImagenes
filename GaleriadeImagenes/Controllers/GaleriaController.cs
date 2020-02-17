@@ -24,7 +24,18 @@ namespace GaleriadeImagenes.Controllers
         [HttpPost]
         public ActionResult Agregar(FormCollection form)
         {
-            return View();
+
+            Imagen imagen = new Imagen
+            {
+                Nombre = form["nombre"].ToString(),
+                ImagenUrl = form["url"].ToString()
+            };
+
+            ImagenMantenimiento im = new ImagenMantenimiento();
+
+            im.AgregarImagen(imagen);
+
+            return RedirectToAction("Mostrar", "Galeria");
         }
     }
 }

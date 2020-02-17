@@ -142,6 +142,7 @@ section {
 img {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 
 figure {
@@ -154,6 +155,10 @@ figure {
     margin-bottom: 2%;
     border-radius: 10px;
 }
+
+    figure:hover {
+        background-color: gold;
+    }
 
 footer {
     margin-top: 2%;

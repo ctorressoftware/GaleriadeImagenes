@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace GaleriadeImagenes.Models
@@ -39,6 +40,24 @@ namespace GaleriadeImagenes.Models
             conn.Close();
 
             return imagenes;
+        }
+
+        public int AgregarImagen(Imagen imagen) {
+
+            Conectar();
+
+            SqlCommand comando = new SqlCommand("INSERT INTO Imagen (Nombre, ImagenUrl) VALUES (@nombre, @imagenurl)", conn);
+            comando.Parameters.Add("@nombre", SqlDbType.VarChar);
+            comando.Parameters.Add("@imagenurl", SqlDbType.VarChar);
+
+            comando.Parameters["@nombre"].Value = imagen.Nombre;
+            comando.Parameters["@imagenurl"].Value = imagen.ImagenUrl;
+
+            conn.Open();
+            int filas = comando.ExecuteNonQuery();
+            conn.Close();
+
+            return filas;
         }
     }
 }
