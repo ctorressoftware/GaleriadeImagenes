@@ -2,6 +2,8 @@
 
 Proyecto sencillo y de prueba hecho utilizando Asp .NET C#
 
+Link de la página en Azure: https://galeriawebapp.azurewebsites.net/
+
 ![Imagen 1](https://raw.githubusercontent.com/ctorressoftware/GaleriadeImagenes/master/GitHub/1.PNG)
 
 ![Imagen 2](https://raw.githubusercontent.com/ctorressoftware/GaleriadeImagenes/master/GitHub/2.PNG)
